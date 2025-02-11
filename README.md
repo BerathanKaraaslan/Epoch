@@ -1,6 +1,6 @@
 # Zaman Farkı Hesaplayıcı (Epoch Zamanına Göre)
 
-Bu C programı, kullanıcıdan iki farklı tarih ve saat bilgisi alarak bu tarihler arasındaki zaman farkını **epoch zamanına** (Unix zaman damgasına) göre hesaplar ve sonucu saniye ile dakika cinsinden gösterir. Programda `struct` ve `union` kullanımı örneklenmiştir.
+Bu C programı, kullanıcıdan iki farklı tarih ve saat bilgisi alarak bu tarihler arasındaki zaman farkını **epoch zamanına** (Unix zaman damgasına) göre hesaplar ve sonucu saniye  cinsinden gösterir. Programda `struct` ve `union` kullanımı örneklenmiştir.
 
 ## Epoch Zamanı Nedir?
 
@@ -9,7 +9,7 @@ Bu C programı, kullanıcıdan iki farklı tarih ve saat bilgisi alarak bu tarih
 ## Program Özellikleri
 - Kullanıcıdan iki tarih ve saat bilgisi alır.
 - Tarih ve saat bilgilerini epoch zamanına dönüştürür.
-- İki tarih arasındaki zaman farkını saniye ve dakika cinsinden hesaplar.
+- İki tarih arasındaki zaman farkını saniye cinsinden hesaplar.
 - `struct` ile tarih ve saat bilgileri, `union` ile zaman farkı farklı birimlerde saklanır.
 
 ## KULLANIM
@@ -32,7 +32,6 @@ Epoch zaman değerleri:
 Birinci tarih: 1731225600 saniye
 İkinci tarih: 1731312000 saniye
 İki tarih arasındaki fark: 86400 saniye
-İki tarih arasındaki fark: 1440.00 dakika
 
 
 KOD AÇIKLAMASI
