@@ -49,8 +49,13 @@ GELİŞTİRME
 Bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
 
 1.Bu projeyi forklayın.
+
 2.Yeni bir dal (branch) oluşturun: git checkout -b ozellik-adi
+
 3.Değişikliklerinizi yapın ve commit edin: git commit -m 'Yeni özellik ekle'
+
 4.Dalınıza push edin: git push origin ozellik-adi
+
 5.Bir pull request oluşturun.
+
 
