@@ -12,10 +12,10 @@ typedef struct {
     int saniye;
 } TarihSaat;
 
-// Zaman farkini saniye cinsinden göstermek icin union
+// Zaman farkini saniye cinsinden gÃ¶stermek icin union
 typedef union {
     long int saniye_farki;
-    double dakika_farki;
+    
 } ZamanFarki;
 
 time_t tarihSaatToEpoch(TarihSaat ts) {
@@ -43,7 +43,7 @@ int main() {
     printf("Ikinci tarih ve saati giriniz (Yil Ay Gun Saat Dakika Saniye): ");
     scanf("%d %d %d %d %d %d", &t2.yil, &t2.ay, &t2.gun, &t2.saat, &t2.dakika, &t2.saniye);
 
-    // Tarihleri epoch zamanina dönüştür
+    // Tarihleri epoch zamanina dÃ¶nÃ¼ÅŸtÃ¼r
     time_t epoch1 = tarihSaatToEpoch(t1);
     time_t epoch2 = tarihSaatToEpoch(t2);
 
@@ -56,9 +56,7 @@ int main() {
     printf("Ikinci tarih: %ld saniye\n", epoch2);
     printf("Iki tarih arasindaki fark: %ld saniye\n", fark.saniye_farki);
 
-    // Zaman farkını dakika cinsinden de göster
-    fark.dakika_farki = fark.saniye_farki / 60.0;
-    printf("Iki tarih arasindaki fark: %.2f dakika\n", fark.dakika_farki);
+   
 
     return 0;
 }
