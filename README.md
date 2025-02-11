@@ -21,6 +21,7 @@ Bu C programı, kullanıcıdan iki farklı tarih ve saat bilgisi alarak bu tarih
    ./zaman_farki
    
 3.Program sizden iki tarih ve saat bilgisi girmenizi isteyecek. Örneğin:
+
 Birinci tarih ve saati giriniz (Yıl Ay Gün Saat Dakika Saniye): 2025 2 11 12 0 0
 İkinci tarih ve saati giriniz (Yıl Ay Gün Saat Dakika Saniye): 2025 2 12 12 0 0
 
