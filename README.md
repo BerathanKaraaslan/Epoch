@@ -36,6 +36,7 @@ Birinci tarih: 1731225600 saniye
 
 
 KOD AÇIKLAMASI
+
 TarihSaat isimli struct tipi, kullanıcıdan alınan yıl, ay, gün, saat, dakika ve saniye bilgilerini saklar.
 ZamanFarki isimli union tipi, zaman farkını hem saniye hem de dakika olarak saklamak için aynı bellek alanını paylaşır.
 tarihSaatToEpoch fonksiyonu, struct tm formatına dönüştürülen tarihi mktime fonksiyonuyla epoch zamanına çevirir.
@@ -44,6 +45,7 @@ Zaman farkı hesaplanır ve farklı formatlarda ekrana yazdırılır.
 
 
 GELİŞTİRME
+
 Bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
 
 1.Bu projeyi forklayın.
